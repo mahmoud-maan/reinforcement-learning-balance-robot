@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Training runs & checkpoints (large artifacts)
+runs/
+
+# Trained model artifacts (regenerate with scripts/actor_to_onnx.py)
+models/*.onnx
+models/*.h
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
