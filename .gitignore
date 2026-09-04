@@ -14,7 +14,6 @@ venv/
 runs/
 
 # Trained model artifacts (regenerate with scripts/actor_to_onnx.py)
-models/*.onnx
 models/*.h
 
 # Editor / OS
