@@ -5,7 +5,9 @@ This project explores how far a reinforcement learning policy trained in simulat
 
 MuJoCo simulation video:
 
-- [MuJoCo sim video](https://github.com/user-attachments/assets/db504bfa-e3d6-4a76-a719-b575fb7adb02)
+<video src="https://github.com/user-attachments/assets/db504bfa-e3d6-4a76-a719-b575fb7adb02" controls width="720">
+  <a href="https://github.com/user-attachments/assets/db504bfa-e3d6-4a76-a719-b575fb7adb02">MuJoCo sim video</a>
+</video>
 
 ## What I Did
 
@@ -43,7 +45,9 @@ At the same time, the real robot exposed the limits of the first policy:
 
 Basic deployed policy video:
 
-- [Basic policy real-robot video](https://github.com/user-attachments/assets/5450b334-f785-4316-a9a8-6f87825be672)
+<video src="https://github.com/user-attachments/assets/5450b334-f785-4316-a9a8-6f87825be672" controls width="720">
+  <a href="https://github.com/user-attachments/assets/5450b334-f785-4316-a9a8-6f87825be672">Basic policy real-robot video</a>
+</video>
 
 Sim-to-real showed that a policy trained in simulation can work on the real robot, but the real robot clearly exposed a gap between the simulator and reality. Domain randomization was my next step to make the policy more robust to that gap.
 
@@ -65,7 +69,9 @@ After deploying the domain-randomized policy, the robot behaved much better and 
 
 Domain-randomized policy video:
 
-- [DR policy real-robot video](https://github.com/user-attachments/assets/187dcaec-91d2-4fa3-935a-5b3add36007b)
+<video src="https://github.com/user-attachments/assets/187dcaec-91d2-4fa3-935a-5b3add36007b" controls width="720">
+  <a href="https://github.com/user-attachments/assets/187dcaec-91d2-4fa3-935a-5b3add36007b">DR policy real-robot video</a>
+</video>
 
 ## Pipeline
 
